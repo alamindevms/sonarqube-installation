@@ -80,7 +80,7 @@ Open [http://localhost:9000](localhost:9000) in any browser
 Execude the scanner
 
 ```bash
-[scanner-directory-path]/sonar-scanner \
+[scanner-bin-directory-path]/sonar-scanner \
     Dsonar.projectKey=sample \
     Dsonar.sources=. \
     Dsonar.host.url=http://localhost:9000 \
