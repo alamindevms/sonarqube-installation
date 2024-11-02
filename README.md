@@ -86,3 +86,24 @@ Execude the scanner
     Dsonar.host.url=http://localhost:9000 \
     Dsonar.token=[replace with your project token]
 ```
+
+## Re-run SonarQube Container ( after installation successful & PC restart )
+
+Start the `sonarqube-db` Container
+
+```bash
+docker start sonarqube-db
+```
+
+Start the `sonarqube` Container: Once `sonarqube-db` is running, you can start the sonarqube container:
+
+```bash
+docker start sonarqube
+```
+
+Verify that `sonarqube-db` & `sonarqube` is Running: After starting it, confirm it’s running with:
+
+```bash
+docker ps
+```
+
