@@ -38,7 +38,7 @@ docker pull sonarqube
 Configure Postgresql database in docker
 
 ```bash
-docker run -d --name sonerqube-db -e POSTGRESQL_USER=sonar -e POSTGRESQL_PASSWORD=sonar -e POSTGRESQL_DB=sonarqube postgres:alpine
+docker run -d --name sonarqube-db -e POSTGRESQL_USER=sonar -e POSTGRESQL_PASSWORD=sonar -e POSTGRESQL_DB=sonarqube postgres:alpine
 ```
 
 Run SonarQube
